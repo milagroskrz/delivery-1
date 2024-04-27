@@ -1,0 +1,65 @@
+
+
+
+    h1{
+        font-family: "Nanum Myeongjo", serif;
+        font-weight: 400;
+        font-style: normal;}
+    h1{ text-align: center; font-size: 280%;}
+
+    .tituloprincipal {color:  aliceblue;}
+
+    p{
+        font-family: "PT Serif", serif; font-size: 150%; text-align: justify; }
+    .titulo{color:black;background-color:  aliceblue;}
+    body{ background-color: #228B22 ;}
+    img{
+        margin:auto;
+        width: 40%;
+        display: block;
+        border-color: black;
+        border: 3px solid aliceblue;}
+
+    a { font-family: "PT Serif", serif; 
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+    border: 1px solid black;
+    padding: 0.5%;
+    background-color: aliceblue;
+    }
+
+    main{
+        font-family: "PT Serif", serif;
+        font-size: 100%;
+    
+    }
+    h2{ font-family:  "Nanum Myeongjo", serif;
+        font-weight: 400;
+        font-style: normal; display: inline;color: aliceblue; padding: 1%; font-size: 180%; text-decoration: underline
+        ;}
+
+    .contenedorFlex{
+        display: flex;
+        flex-direction: row;
+    
+    }
+    .primerparrafo{color: black;}
+    .hijoflex{
+        margin: 3%;
+        width: auto;
+        background-color: aliceblue;
+        padding: 2%;
+        
+        h3{ text-align: center;font-size: 150%;text-decoration: underline;}
+    }
+    .imgTarjeta{
+        height: 350px;
+        width: auto;
+    }
+
+    @media screen and (max-whidth: 780px){
+        /*estilos que solamente se aplicaron a pantallas con un ancho menor o igual a 800px*/
+    }
+    
+   footer{font-family: "PT Serif", serif; font-size: 100%; text-align: justify; color: aliceblue;}
